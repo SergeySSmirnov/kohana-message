@@ -1,4 +1,4 @@
-<?php defined('SYSPATH') or die('No direct script access.');
+<?php defined('SYSPATH') or die('No direct script access.'); 
 /**
  * Message is a class that lets you easily send messages
  * in your application (aka Flash Messages)
