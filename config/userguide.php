@@ -9,7 +9,7 @@ return array
 			'enabled' => TRUE,
 			'name' => "Message",
 			'description' => "A flash messaging system for Kohana v3.0 and higher.",
-			'copyright' => '&copy; 2010–2011 Dave Widmer',
+			'copyright' => '&copy; 2010–2011 Dave Widmer, 2014-2016 Sergey S. Smirnov',
 		)  
 	)
 );

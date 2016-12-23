@@ -1,11 +1,9 @@
-<ul id="message" class="<?php echo $message->type; ?>">
 <?php
-	if( is_array( $message->message ) ):
-		foreach( $message->message as $msg ): ?>
-	<li><?php echo $msg; ?></li>
-<?php
-		endforeach;
-	else: ?>
-	<li><?php echo $message->message; ?></li>
-<?php endif; ?>
-</ul>
+	defined('SYSPATH') or die('No direct script access.');
+	foreach ($messages as $_msg) {
+		$_res = '';
+		foreach($_msg->message as $_sub_msg)
+			$_res .= "<li>{$_sub_msg}</li>";
+		echo "<ul class=\"{$_msg->type}\">{$_res}</ul>";
+	}
+?>

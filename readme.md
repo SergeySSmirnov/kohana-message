@@ -19,9 +19,10 @@ There are also methods that are wrappers for the different types of messages
 _type_: Use a constant that can be found below   
 _message_:  A message string or array of message strings
 
-When you need to get a message you can:
-	echo Message::display(); or
-	echo Message::render();
+When you need to get a rendered message you can:
+		echo Message::display();
+	or
+		echo Message::render();
 
 ## Messages
 
@@ -34,7 +35,7 @@ There are 4 constants you can use to set a message
 
 ## Style
 The message class produces the following code by default
-	<ul id="message" class"_type_">
+	<ul class="_type_">
 		<li>_Message_</li>
 		... Repeated if an array
 	</ul>

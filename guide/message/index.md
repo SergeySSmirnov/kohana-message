@@ -23,7 +23,7 @@ There are also methods that are wrappers for the different types of messages.
 	Message::notice($message)
 	Message::warn($message)
 
-When you need to get a message you can:
+When you need to get a rendered message you can:
 
 	echo Message::display(); or
 	echo Message::render();
@@ -49,7 +49,7 @@ There are 4 constants you can use to set a message
 ## Style
 The message class produces the following code by default.
 
-	<ul id="message" class"type">
+	<ul class="type">
 		<li>Message</li>
 		... Repeated if an array
 	</ul>
