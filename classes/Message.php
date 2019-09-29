@@ -1,3 +1,9 @@
-<?php defined('SYSPATH') or die('No direct script access.'); 
+<?php
+namespace RUSproj\Kohana\Message;
 
-class Message extends Message_Core{}
+use RUSproj\Kohana\Message\Message\Message_Core;
+
+class Message extends Message_Core
+{
+
+}
